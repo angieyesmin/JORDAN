@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <title>CALZADO DEPORTIVO</title>
+    </head>
+    <body>
+        <section class="contenido">
+            <div class="mostrador" id="mostrador">
+                <div class="fila">
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="img/1.png" alt="">
+                        </div>
+                        <p class="descripcion">Air Jordan 1</p>
+                        <span class="precio">$ 13,206</span>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="img/2.png" alt="">
+                        </div>
+                        <p class="descripcion" id>Air Jordan 1</p>
+                        <span class="precio">$ 1,900</span>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="img/3.png" alt="">
+                        </div>
+                        <p class="descripcion">Air Jordan 1</p>
+                        <span class="precio">$ 3,600</span>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="img/4.png" alt="">
+                        </div>
+                        <p class="descripcion">Air Jordan 1</p>
+                        <span class="precio">$ 3,800</span>
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="img/5.png" alt="">
+                        </div>
+                        <p class="descripcion">Air Jordan 1</p>
+                        <span class="precio">$ 5,300</span>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="img/6.png" alt="">
+                        </div>
+                        <p class="descripcion">Air Jordan 1</p>
+                        <span class="precio">$ 2,000</span>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="img/7.png" alt="">
+                        </div>
+                        <p class="descripcion">Air Jordan 1</p>
+                        <span class="precio">$ 9,500</span>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="img/8.png" alt="">
+                        </div>
+                        <p class="descripcion">Air Jordan 1</p>
+                        <span class="precio">$ 4,800</span>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="img/9.png" alt="">
+                        </div>
+                        <p class="descripcion">Air Jordan 1</p>
+                        <span class="precio">$ 5,800</span>
+                    </div>
+                </div> 
+            </div>
+            <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+            <div class="seleccion" id="seleccion">
+                <div class="cerrar" onclick="cerrar()">
+                    &#x2715
+                </div>
+                <div class="info">
+                    <img src="img/1.png" alt="" id="img">
+                    <h2 id="modelo">ir Jordan 1</h2>
+                    <p id="descripcion">Descripción Modelo 1</p>
+    
+                    <span class="precio" id="precio">$ 13,206</span>
+    
+                    <div class="fila">
+                        <div class="size">
+                            <label for="">SIZE</label>
+                            <select name="" id="">
+                                <option value="">22</option>
+                                <option value="">22,5</option>
+                                <option value="">23</option>
+                                <option value="">23,5</option>
+                                <option value="">24</option>
+                                <option value="">24,5</option>
+                                <option value="">25</option>
+                                <option value="">25,5</option>
+                                <option value="">26</option>
+                                <option value="">26,5</option>
+                                <option value="">27</option>
+                                <option value="">27,5</option>
+                                <option value="">28</option>
+                                <option value="">29</option>
+                    
+                            </select>
+                        </div>
+                        <button>AGREGAR AL CARRITO</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <script src="Guion.JS"></script>
+    </body>
+</html>
